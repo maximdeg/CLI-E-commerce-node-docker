@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  data:
+    build:
+      context: .
+      dockerfile: data/Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app
+    networks:
+      - app-network
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    depends_on:
+      - data
+    networks:
+      - app-network
+    stdin_open: true
+    tty: true
+    environment:
+      - NODE_ENV=development
+      - FORCE_COLOR=1
+      - TERM=xterm-256color
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  node_modules: 

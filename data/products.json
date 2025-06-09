@@ -1,0 +1,96 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Gaming Laptop Pro",
+      "brand": "TechMaster",
+      "price": 1299.99,
+      "specs": {
+        "processor": "Intel i7-12700H",
+        "ram": "16GB DDR4",
+        "storage": "512GB SSD",
+        "gpu": "NVIDIA RTX 3060"
+      },
+      "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1741820261/Gemini_Generated_Image_ob4d3tob4d3tob4d2_o1k5sz.png"
+    },
+    {
+      "id": 2,
+      "name": "Business Ultrabook",
+      "brand": "WorkTech",
+      "price": 899.99,
+      "specs": {
+        "processor": "AMD Ryzen 7",
+        "ram": "8GB DDR4",
+        "storage": "256GB SSD",
+        "gpu": "AMD Radeon Graphics"
+      },
+      "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1743017384/4cf7ea7a6fd93d39290027b11b28db66_iqpkob.png"
+    },
+    {
+      "id": 3,
+      "name": "Desktop Powerhouse",
+      "brand": "CompMaster",
+      "price": 1499.99,
+      "specs": {
+        "processor": "Intel i9-12900K",
+        "ram": "32GB DDR5",
+        "storage": "1TB NVMe SSD",
+        "gpu": "NVIDIA RTX 3080"
+      },
+      "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1742931803/sv311dc8c5082d5406b49fc32cab2e353dc_fpm7us.png"
+    },
+    {
+      "id": 4,
+      "name": "Gaming Laptop Pro",
+      "brand": "TechMaster",
+      "price": 1299.99,
+      "specs": {
+        "processor": "Intel i7-12700H",
+        "ram": "16GB DDR4",
+        "storage": "512GB SSD",
+        "gpu": "NVIDIA RTX 3060"
+      },
+      "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1741820261/Gemini_Generated_Image_ob4d3tob4d3tob4d2_o1k5sz.png"
+    },
+    {
+      "id": 5,
+      "name": "Gaming Laptop Pro",
+      "brand": "TechMaster",
+      "price": 1299.99,
+      "specs": {
+        "processor": "Intel i7-12700H",
+        "ram": "16GB DDR4",
+        "storage": "512GB SSD",
+        "gpu": "NVIDIA RTX 3060"
+      },
+      "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1741820261/Gemini_Generated_Image_ob4d3tob4d3tob4d2_o1k5sz.png"
+    },
+    {
+      "id": 6,
+      "name": "Gaming Laptop Pro",
+      "brand": "TechMaster",
+      "price": 1299.99,
+      "specs": {
+        "processor": "Intel i7-12700H",
+        "ram": "16GB DDR4",
+        "storage": "512GB SSD",
+        "gpu": "NVIDIA RTX 3060"
+      },
+      "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1741820261/Gemini_Generated_Image_ob4d3tob4d3tob4d2_o1k5sz.png"
+    },
+    {
+      "id": 7,
+      "name": "Gaming Laptop Pro",
+      "brand": "TechMaster",
+      "price": 1299.99,
+      "specs": {
+        "processor": "Intel i7-12700H",
+        "ram": "16GB DDR4",
+        "storage": "512GB SSD",
+        "gpu": "NVIDIA RTX 3060"
+      },
+      "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1741820261/Gemini_Generated_Image_ob4d3tob4d3tob4d2_o1k5sz.png"
+    }
+
+  ]
+} 
