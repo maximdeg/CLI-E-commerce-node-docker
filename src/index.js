@@ -109,7 +109,7 @@ async function main() {
 
     console.log('\nThank you for shopping with us!');
     console.log(`Total price: $${totalPrice.toFixed(2)}`);
-    console.log('Exiting application...BYE!');
+    console.log('Exiting application...BYE!\n CTRL + C to exit');
 }
 
 console.log('Initializing application...');
