@@ -19,7 +19,7 @@ async function getProducts() {
     try {
         console.log('Fetching products from API...');
         const response = await axios.get(`${API_URL}/api/products`);
-        console.log('Products received:', response.data.length);
+        console.log('✅ Products received:', response.data.length);
         return response.data;
     } catch (error) {
         console.error('Error fetching products:', error.message);
@@ -36,11 +36,11 @@ async function displayProduct(product) {
         console.error('No product data received');
         return;
     }
-    console.log('\nProduct Details:');
+    console.log('\n 📦 Product Details:');
     console.log('----------------');
     console.log(`Name: ${product.name}`);
     console.log(`Brand: ${product.brand}`);
-    console.log(`Price: $${product.price}`);
+    console.log(`Price: 💲${product.price}`);
     console.log('Specifications:');
     console.log(`  Processor: ${product.specs.processor}`);
     console.log(`  RAM: ${product.specs.ram}`);
@@ -75,9 +75,7 @@ async function main() {
             console.error('No products available');
             return;
         }
-        
-        console.log(`Found ${products.length} products`);
-        
+                
         const productNumber = await promptUser(
             'Enter a number between 1 and 7 to view a product:',
             (input) => {
@@ -107,9 +105,9 @@ async function main() {
         continueShopping = continueShoppingAnswer.toUpperCase() === 'Y';
     }
 
-    console.log('\nThank you for shopping with us!');
-    console.log(`Total price: $${totalPrice.toFixed(2)}`);
-    console.log('Exiting application...BYE!\n CTRL + C to exit');
+    console.log('\nThank you for shopping with us!🙏');
+    console.log(`Total price: 💲${totalPrice.toFixed(2)}`);
+    console.log('Exiting application...BYE!👋\n 👉 CTRL + C to exit');
 }
 
 console.log('Initializing application...');

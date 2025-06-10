@@ -2,95 +2,94 @@
   "products": [
     {
       "id": 1,
-      "name": "Gaming Laptop Pro",
-      "brand": "TechMaster",
-      "price": 1299.99,
+      "name": "Alienware X17 Gaming Laptop",
+      "brand": "Dell",
+      "price": 2499.99,
       "specs": {
-        "processor": "Intel i7-12700H",
-        "ram": "16GB DDR4",
-        "storage": "512GB SSD",
-        "gpu": "NVIDIA RTX 3060"
+        "processor": "Intel i9-13900H",
+        "ram": "32GB DDR5",
+        "storage": "2TB NVMe SSD",
+        "gpu": "NVIDIA RTX 4080"
       },
       "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1741820261/Gemini_Generated_Image_ob4d3tob4d3tob4d2_o1k5sz.png"
     },
     {
       "id": 2,
-      "name": "Business Ultrabook",
-      "brand": "WorkTech",
-      "price": 899.99,
+      "name": "MacBook Pro 16\" M3",
+      "brand": "Apple",
+      "price": 3299.99,
       "specs": {
-        "processor": "AMD Ryzen 7",
-        "ram": "8GB DDR4",
-        "storage": "256GB SSD",
-        "gpu": "AMD Radeon Graphics"
+        "processor": "Apple M3 Pro",
+        "ram": "18GB Unified Memory",
+        "storage": "1TB SSD",
+        "gpu": "Integrated M3 Pro GPU"
       },
       "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1743017384/4cf7ea7a6fd93d39290027b11b28db66_iqpkob.png"
     },
     {
       "id": 3,
-      "name": "Desktop Powerhouse",
-      "brand": "CompMaster",
-      "price": 1499.99,
+      "name": "ThinkStation P620",
+      "brand": "Lenovo",
+      "price": 3999.99,
       "specs": {
-        "processor": "Intel i9-12900K",
-        "ram": "32GB DDR5",
-        "storage": "1TB NVMe SSD",
-        "gpu": "NVIDIA RTX 3080"
+        "processor": "AMD Threadripper PRO 5995WX",
+        "ram": "128GB DDR4 ECC",
+        "storage": "4TB NVMe SSD",
+        "gpu": "NVIDIA RTX A5000"
       },
       "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1742931803/sv311dc8c5082d5406b49fc32cab2e353dc_fpm7us.png"
     },
     {
       "id": 4,
-      "name": "Gaming Laptop Pro",
-      "brand": "TechMaster",
-      "price": 1299.99,
+      "name": "Surface Studio 2+",
+      "brand": "Microsoft",
+      "price": 3499.99,
       "specs": {
-        "processor": "Intel i7-12700H",
-        "ram": "16GB DDR4",
-        "storage": "512GB SSD",
+        "processor": "Intel i7-11370H",
+        "ram": "32GB LPDDR4x",
+        "storage": "1TB SSD",
         "gpu": "NVIDIA RTX 3060"
       },
       "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1741820261/Gemini_Generated_Image_ob4d3tob4d3tob4d2_o1k5sz.png"
     },
     {
       "id": 5,
-      "name": "Gaming Laptop Pro",
-      "brand": "TechMaster",
-      "price": 1299.99,
+      "name": "ROG Strix G16",
+      "brand": "ASUS",
+      "price": 1799.99,
       "specs": {
-        "processor": "Intel i7-12700H",
-        "ram": "16GB DDR4",
-        "storage": "512GB SSD",
-        "gpu": "NVIDIA RTX 3060"
+        "processor": "Intel i7-13650HX",
+        "ram": "16GB DDR5",
+        "storage": "1TB NVMe SSD",
+        "gpu": "NVIDIA RTX 4070"
       },
       "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1741820261/Gemini_Generated_Image_ob4d3tob4d3tob4d2_o1k5sz.png"
     },
     {
       "id": 6,
-      "name": "Gaming Laptop Pro",
-      "brand": "TechMaster",
-      "price": 1299.99,
+      "name": "ThinkPad X1 Carbon",
+      "brand": "Lenovo",
+      "price": 1899.99,
       "specs": {
-        "processor": "Intel i7-12700H",
-        "ram": "16GB DDR4",
-        "storage": "512GB SSD",
-        "gpu": "NVIDIA RTX 3060"
+        "processor": "Intel i7-1360P",
+        "ram": "16GB LPDDR5",
+        "storage": "512GB NVMe SSD",
+        "gpu": "Intel Iris Xe Graphics"
       },
       "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1741820261/Gemini_Generated_Image_ob4d3tob4d3tob4d2_o1k5sz.png"
     },
     {
       "id": 7,
-      "name": "Gaming Laptop Pro",
-      "brand": "TechMaster",
-      "price": 1299.99,
+      "name": "ProArt StudioBook 16",
+      "brand": "ASUS",
+      "price": 2999.99,
       "specs": {
-        "processor": "Intel i7-12700H",
-        "ram": "16GB DDR4",
-        "storage": "512GB SSD",
-        "gpu": "NVIDIA RTX 3060"
+        "processor": "Intel i9-13900H",
+        "ram": "32GB DDR5",
+        "storage": "2TB NVMe SSD",
+        "gpu": "NVIDIA RTX 4070"
       },
       "image": "https://res.cloudinary.com/djdnlogf1/image/upload/v1741820261/Gemini_Generated_Image_ob4d3tob4d3tob4d2_o1k5sz.png"
     }
-
   ]
 } 
