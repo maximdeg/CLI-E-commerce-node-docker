@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const axios = require('axios');
 
-const API_URL = process.env.API_URL || 'http://localhost:5000';
+const API_URL = process.env.API_URL || 'http://data:5000';
 
 // Configuración especial de inquirer para entornos Docker
 // Esta configuración es necesaria porque Docker puede tener problemas con la interacción

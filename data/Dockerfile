@@ -7,6 +7,9 @@ ARG PIP_DISABLE_PIP_VERSION_CHECK=1
 # Install dependencies first
 RUN pip install --no-cache-dir flask flask-cors
 
+# Create app directory
+RUN mkdir -p /app
+
 # Copy the server file
 COPY data/server.py /server.py
 
