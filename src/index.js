@@ -1,14 +1,23 @@
 const inquirer = require('inquirer');
 const axios = require('axios');
 
-const API_URL = 'http://data:5000';
+const API_URL = process.env.API_URL || 'http://localhost:5000';
 
-// Configure inquirer for Docker environment
+// Configuración especial de inquirer para entornos Docker
+// Esta configuración es necesaria porque Docker puede tener problemas con la interacción
+// del teclado y la visualización de prompts en la terminal
+
+// Modifica el comportamiento del prompt de entrada (input) de inquirer
+// Sobrescribe el método getQuestion para que solo muestre el mensaje
+// sin el formato predeterminado de inquirer que podría no funcionar bien en Docker
 inquirer.prompt.prompts.input.prototype.getQuestion = function() {
     return this.opt.message;
 };
 
-// Override the default input behavior
+// Personaliza el manejo de teclas para el prompt de entrada
+// Esta modificación permite que el prompt responda al Enter (return)
+// de una manera más directa y compatible con Docker
+// Cuando se presiona Enter, envía inmediatamente el valor ingresado
 inquirer.prompt.prompts.input.prototype.onKeypress = function(e) {
     if (e.key.name === 'return') {
         this.onSubmit(this.value);
@@ -65,7 +74,7 @@ async function promptUser(message, validate) {
 }
 
 async function main() {
-    console.log('Starting application...');
+    console.log('🚀 Starting application...');
     let totalPrice = 0;
     let continueShopping = true;
 
@@ -94,7 +103,7 @@ async function main() {
 
         if (wantToPurchase.toUpperCase() === 'Y') {
             totalPrice += selectedProduct.price;
-            console.log(`Added ${selectedProduct.name} to your cart.`);
+            console.log(`🛒 Added ${selectedProduct.name} to your cart.`);
         }
 
         const continueShoppingAnswer = await promptUser(
